@@ -48,7 +48,7 @@ h6 {
     background-color: #f7f7f7
 }
 .bg-darkest-gray {
-    background-color: #757f88
+    background-color: #677b8d
 }
 .btn-primary {
     color: #fff;
@@ -142,7 +142,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff
 }
 .navbar-default {
-    background-color: #757f88;
+    background-color: #677b8d;
     border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 3px
     }
     .navbar-default.navbar-shrink {
-        background-color: #757f88;
+        background-color: #677b8d;
         padding: 10px 0
     }
     .navbar-default.navbar-shrink .navbar-brand {
@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg2.png);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -230,7 +230,6 @@ header {
     color: #fff
 }
 header .intro-text {
-    padding-top: 100px;
     padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
@@ -240,18 +239,23 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
     margin-bottom: 25px
 }
+.intro-text .intro-lead-in {
+    color: #FFF
+}
+
+.intro-text h4 {
+    margin: 20px;
+    text-transform: none
+}
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 25px
 }
 @media (min-width: 768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
+    header .intro-text {padding-bottom: 200px
     }
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -261,8 +265,8 @@ header .intro-text .intro-heading {
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        text-transform: uppercase;
+       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       
         font-weight: 700;
         font-size: 75px;
         line-height: 75px;
@@ -526,14 +530,25 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px
     }
 }
+.reno-member {
+    text-align: center;
+}
+.reno-member img {
+    margin: 100px auto 20px auto;
+    border: 5px solid #677b8d;
+    max-width: 12%;
+}
+
 .team-member {
     text-align: center;
     margin-bottom: 50px
 }
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff
+    border: 7px solid #FFF
 }
+
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -546,7 +561,7 @@ aside.clients img {
     margin: 50px auto
 }
 section#contact {
-    background-color: #757f88;
+    background-color: #677b8d;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat
@@ -620,7 +635,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
     display: block;
-    background-color: #757f88;
+    background-color: #677b8d;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -689,7 +704,7 @@ ul.social-buttons li a:active {
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #757f88;
+    background-color: #677b8d;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -698,7 +713,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
     width: 1px;
-    background-color: #757f88;
+    background-color: #677b8d;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
