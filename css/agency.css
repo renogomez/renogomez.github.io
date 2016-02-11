@@ -251,6 +251,7 @@ header .intro-text .intro-heading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 50px;
+    color: #c2cad1;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -260,15 +261,16 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 40px;
+        font-size: 60px;
         line-height: 40px;
+
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-       
+       color: #c2cad1;
         font-weight: 700;
-        font-size: 75px;
+        font-size: 35px;
         line-height: 75px;
         margin-bottom: 50px
     }
