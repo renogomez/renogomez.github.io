@@ -248,7 +248,7 @@ header .intro-text .intro-lead-in {
     text-transform: none
 }
 header .intro-text .intro-heading {
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 50px;
     color: #c2cad1;
@@ -267,8 +267,8 @@ header .intro-text .intro-heading {
         margin-bottom: 25px
     }
     header .intro-text .intro-heading {
-       font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-       color: #c2cad1;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #c2cad1;
         font-weight: 700;
         font-size: 35px;
         line-height: 75px;
