@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    background-color: ##29313b;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .text-muted {
@@ -219,6 +220,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
     background-image: url(../img/header-bg2.png);
+
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -227,7 +229,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff
+    background-color: #35454D;
 }
 header .intro-text {
     padding-bottom: 200px
@@ -244,14 +246,14 @@ header .intro-text .intro-lead-in {
 
 .intro-text h4 {
     margin: 20px;
-    color: #c2cad1;
+    color: #FFF;
     text-transform: none
 }
 header .intro-text .intro-heading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 35px;
-    color: #c2cad1;
+    color: #FFF;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -324,6 +326,9 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1
+}
+.portfolio-image .portfolio-link{
+    vertical-align: middle;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
@@ -424,7 +429,7 @@ section h3.section-subheading {
     background-color: #8496a8;
     color: #fff;
     border-radius: 100%;
-    border: 8px solid #98a7b7;
+    border: 1px solid #98a7b7;
     text-align: center
 }
 .timeline>li .timeline-image h4 {
@@ -539,7 +544,7 @@ section h3.section-subheading {
 }
 .reno-member img {
     margin: 100px auto 20px auto;
-    border: 5px solid #677b8d;
+    border: 2px solid #FFF;
     max-width: 12%;
 }
 
