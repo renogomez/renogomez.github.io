@@ -56,10 +56,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -83,7 +83,7 @@
 
             <div class="intro-text">
                 <div class="reno-member">
-                    <img src="img/reno16.jpg" class="reno-img img-responsive img-circle" alt="">
+                    <!-- <img src="img/reno16.jpg" class="reno-img img-responsive img-circle" alt="">-->
                 </div>
                 <div class="intro-lead-in">René Gómez</div>
                 <div class="type-wrap">
@@ -99,13 +99,113 @@
                      <div class="intro-heading"><span id="typed" style="white-space:pre;"></span></div>
                 </div>
                 <div>
-                    <a href="#services" class="page-scroll btn btn-xl">Show me more!</a>
+                    <a href="#portfolio" class="page-scroll btn btn-xl">Show me more!</a>
                 <div>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">I have had strong participation in these projects.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    <img src="img/portfolio/cvtraffic2.png" class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>cvTraffic</h4>
+                        <p class="text-muted">We implemented a vehicle classifier using OpenCV.</p>
+                    </div>
+                </div>
+                <div class="ol-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-responsive portfolio-image" alt="" src='img/portfolio/omv.png'>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Traffic observatory</h4>
+                        <p class="text-muted">Worked on design and implementation. I worked with NTCIP</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/trafficsimulation.png" class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Microkernel app</h4>
+                        <p class="text-muted">I developed a plugin for TransModeler (traffic simulation software)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-1ccc2 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/aits3.png" class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>ITS architecture</h4>
+                        <p class="text-muted">I designed the West Central ITS architecture.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src='img/portfolio/smaps3.png' class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>smaps</h4>
+                        <p class="text-muted">Web platform for ITS.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src='img/portfolio/bariatrack.png' class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bariatrack</h4>
+                        <p class="text-muted">Mobile app using ionic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Services Section -->
     <section id="services">
         <div class="container">
             <div class="row">
@@ -118,7 +218,7 @@
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-envelope-open fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-exclamation-triangle fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Arquitectura de Software</h4>
                     <p class="text-muted">He diseñado arquitecturas para aplicaciones web, sistemas de control de tráfico, transporte público y aplicaciones móviles.</p>
@@ -142,110 +242,10 @@
                 <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-envelope-open fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                        <i class="fa fa-bandcamp fa-stack-1x fa-inverse" aria-hidden="true"></i>
                     </span>
                     <h4 class="service-heading">Formulación de proyectos</h4>
                     <p class="text-muted">He trabajado en la formulación de proyectos de investigación y desarrollo tecnológico, basado en la aplicación de las ciencias de la computación.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">I have had strong participation in these projects.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/smaps2.png" class="img-responsive portfolio-imgage" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>smaps</h4>
-                        <p class="text-muted">Web platform for ITS.</p>
-                    </div>
-                </div>
-                <div class="ol-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/aits.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>ITS architecture</h4>
-                        <p class="text-muted">I designed the West Central ITS architecture.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/omv.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Traffic observatory</h4>
-                        <p class="text-muted">Worked on design and implementation. I worked with NTCIP</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/trafficsimulation.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Microkernel app</h4>
-                        <p class="text-muted">I developed a plugin for TransModeler (traffic simulation software)</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cvtraffic.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>cvTraffic</h4>
-                        <p class="text-muted">I implemented a vehicle sensor using OpenCV.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/bariatrack.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Bariatrack</h4>
-                        <p class="text-muted">Mobile app for bariatric surgery patients.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -269,10 +269,10 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>1993-1997</h4>
-                                    <h4 class="subheading">Tom Sawyer Childhood</h4>
+                                    <h4>1993 - 1997</h4>
+                                    <h4 class="subheading">Buenos Aires, Cauca.</h4>
                                 </div>
-                                <div class="timeline-body">Viví como Tom en una comunidad afrodescendiente.
+                                <div class="timeline-body">En la imagen el Centro Educativo Paloblanco, donde estudié la primaria. Crecí en las montañas de Buenos Aires, en donde me pasé el tiempo jugando más que cualquier otra cosa.
                                     <p class="text-muted"></p>
                                 </div>
                             </div>
@@ -283,47 +283,76 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>1998-2003</h4>
+                                    <h4>1998 - 2003</h4>
                                     <h4 class="subheading">Aprendí mecánica industrial</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Estudié la secundaria en el Instituto Tecnológico de Santa Rosa de Cabal (Risaralda) y me especialicé en Mecánica Industrial. Cuando logras hacer un piñon se siente lo mismo que cuando escribes un programa que funciona : )</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/utp.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>2004 - 2009</h4>
+                                    <h4 class="subheading">Universidad Tecnológica de Pereira</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Luego estudié Ingeniería de Sistemas y Computación en la Universidad Tecnológica de Pereira.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/sirius.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>2007 - 2015</h4>
+                                    <h4 class="subheading">Grupo Sirius</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Sirius es un grupo de desarrollo tecnológico con diversas líneas de investigación. Trabajé allí varios años en proyectos con múltiples tecnologías, incluyendo arquitectura software, aplicaciones web, protocolos de comunicación, sistemas de simulación de tráfico, FPGAs, entre otras. Fui jóven investigador de Colciencias, desarrollé y registré (DNDA) algunos productos de software, asistí a muchas conferencias y ayudé a organizar otras.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <img class="img-circle img-responsive" src="img/about/cidt2.png" alt="" style="padding-top: 3px;">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2014 - 2015</h4>
+                                    <h4 class="subheading">Centro de Innovación y Desarrollo Tecnológico de Pereira (CIDT)</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Trabajé en la línea de Sistemas Inteligentes de Transporte del CIDT. Terminé la segunda versión de la Arquitectura ITS y trabajé con el Área Metropolitana Centro Occidente para iniciar su implementación a través del desarrollo de la plataforma smaps.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/bios.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2016 - Actualmente</h4>
+                                    <h4 class="subheading">Centro de Bioinformática y Biología Computacional de Colombia - BIOS</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Trabajo en el área de Bioingeniería, específicamente en los proyectos relacionados con salud.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Are<br>
+                                     you<br>
+                                    next?
+                                </h4>
                             </div>
                         </li>
                     </ul>
@@ -331,7 +360,7 @@
             </div>
         </div>
     </section>
-
+    <!-- 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
@@ -423,6 +452,7 @@
             </div>
         </div>
     </aside>
+-->
     
     <!-- Contact Section -->
     <section id="contact">
@@ -473,7 +503,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; René Gómez Londoño</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -513,18 +543,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
+                            <h2>cvTraffic</h2>
+                            <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/cvtraffic.gif" alt="">
+                            <p>This was a project developed with the Colombian Administrative Department of Science, Technology and Innovation; <a href="http://www.colciencias.gov.co">COLCIENCIAS</a>. 
+                                We developed a prototype of traffic sensor to count and classify vehicles. Back then, OpenCV was just begining and was really difficult to avoid errors caused by the people who sell products at traffic intersections. You can see them right inside the street even on green light.</p>
+                            <p>This is how our sensor was integrated with other projects to create the transport observatory, including traffic controllers and GIS technologies.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/omv2.jpg" alt="">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -546,11 +571,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            
+                            <h2>cvTraffic</h2>
+                            <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/cvtraffic.gif" alt="">
+                            <p>This was a project developed with the Colombian Administrative Department of Science, Technology and Innovation; <a href="http://www.colciencias.gov.co">COLCIENCIAS</a>. 
+                                We developed a prototype of traffic sensor to count and classify vehicles. Back then, OpenCV was just begining and was really difficult to avoid errors caused by the people who sell products at traffic intersections. You can see them right inside the street even on green light.</p>
+                            <p>This is how our sensor was integrated with other projects to create the transport observatory, including traffic controllers and GIS technologies.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/omv2.jpg" alt="">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -572,12 +600,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            
+                            <h2>Traffic Central</h2>
+                            <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/cvtraffic.gif" alt="">
+                            <p>This was a project developed with the Colombian Administrative Department of Science, Technology and Innovation; <a href="http://www.colciencias.gov.co">COLCIENCIAS</a>. 
+                                We developed a prototype of traffic sensor to count and classify vehicles. Back then, OpenCV was just begining and was really difficult to avoid errors caused by the people who sell products at traffic intersections. You can see them right inside the street even on green light.</p>
+                            <p>This is how our sensor was integrated with other projects to create the transport observatory, including traffic controllers and GIS technologies.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/omv2.jpg" alt="">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -599,13 +629,23 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                                   <div class="modal-body">
+                            <h2>ITS Regional Architecture</h2>
+                            <p class="item-intro text-muted"><a href="http://amco.gov.co">West Central Metropolitan Area</a> ITS architecture.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/aits3.png" alt="">
+                            <p>Design the 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' (Risaralda, Colombia). The ITS architecture was adopted by the local transport agencies, including services areas for public transport, traffic management, emergency response, traveler information, data management among others.</p>
+                            <p>Unfortunately you need permission to check the ITS regional Architecture. You can request for access  <a href="http://maps.utp.edu.co">here</a>.</p>
+                            <p>Here I leave some context diagrams, but ssshhh ;)<br/>Emergency</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/aits4.gif" alt="emergency">
+                            <p>Public transport</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/aits5.gif" alt="">
+                            <ul class="list-inline">
+                                <li>Date: Dec. 2014</li>
+                                <li>Client: AMCO-CIDT</li>
+                                <li>Category: Software architecture, ITS</li>
+                            </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -627,11 +667,18 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <h2>smaps</h2>
+                            <p class="item-intro text-muted">Web platform for Intelligent Transport Projects</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/smaps2.png" alt="">
+                            <p>Design and lead the implementation of 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' with a web platform (Node.js, OpenStreetMap, OpenLayers, Common Alerting Protocol) integrating regional transport information from multiple stakeholders.</p>
+                            <p>
+                                Smaps is currently under development by a different team. You can check their website <a href="http://maps.utp.edu.co">here.</a>
+                            </p>
+                            <ul class="list-inline">
+                                <li>Date: Dec. 2015</li>
+                                <li>Client: CIDT</li>
+                                <li>Category: Web development</li>
+                            </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
