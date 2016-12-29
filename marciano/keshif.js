@@ -5003,13 +5003,13 @@ kshf.Browser.prototype = {
         .on("click",      function(){ this.tipsy.hide(); me.showFullscreen();});
       // Info & Credits
       var x = rightBoxes.append("span").attr("class","logoHost")//.attr("class","fa fa-info-circle")
-        .html(kshf.kshfLogo)
+        //.html(kshf.kshfLogo)
         .each(function(){ this.tipsy = new Tipsy(this, { gravity: 'ne', title: kshf.lang.cur.ShowInfoCredits }); })
         .on("mouseenter", function(){ this.tipsy.show(); })
         .on("mouseleave", function(){ this.tipsy.hide(); })
         .on("click",      function(){ this.tipsy.hide(); 
-          me.showCredits();
-          me.panel_overlay.attr("show","infobox");
+          //me.showCredits();
+          //me.panel_overlay.attr("show","infobox");
         });
 
       // Total glyph - row
