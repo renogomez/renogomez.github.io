@@ -25,29 +25,54 @@ google.charts.setOnLoadCallback(function(){
     categoryTextWidth: 210,
     rightPanelLabelWidth: 180,
     source: {
-      url: 'http://www.centrodememoriahistorica.gov.co',
+      url: 'http://www.centrodememoriahistorica.gov.co/micrositios/informeGeneral/basesDatos.html',
       gdocId: '1RP0m_LD4vMz5GblzQGpC9xqdh6CLUizY9ERxtecWgO4',
       tables: "casosvalidados",
       callback: function(){ CO_States.loadGeo(this); }
     },
     summaries: [
-      { name: "Año", panel: 'bottom', timeFormat: "%Y" },
-      { name: "Departamento", panel: 'middle', viewAs: 'map',
+      { 
+        name: "Año", 
+        panel: 'bottom', 
+        timeFormat: "%Y", 
+        "panel": "bottom",
+        "intervalScale": "time"
+      },
+      { 
+        name: "Departamento", 
+        panel: 'middle', 
+        viewAs: 'map',
         catMap: function(){ 
           var x=CO_States.index_name[this.id];
           if(x) return x.geo;
-        } },
-      {
-        "name": "Tipo de Implicado (2)",
-        "panel": "left"
+        } 
       },
       {
         "name": "Tipo de Hecho",
         "panel": "left"
       },
       {
+        "name": "Tipo de Implicado",
+        "panel": "left"
+      },
+      {
         "name": "Municipio",
         "panel": "left"
+      },
+      {
+        "name": "Nº Víctimas",
+        "panel": "right",
+        "intervalScale": "linear"
+      },
+      {
+        "name": "Población Civil",
+        "panel": "right",
+        "intervalScale": "log"
+      },
+      {
+        "name": "Combatiente",
+        "panel": "right",
+        "intervalScale": "log"
       }
     ], 
     "leftPanelLabelWidth": 210,
