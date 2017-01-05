@@ -109,7 +109,7 @@ var kshf = {
       Unlock: "Unlock",
       ChangeMeasureFunc: "Change metric",
       Search: "Search",
-      CreatingBrowser: "Creating Keshif Browser",
+      CreatingBrowser: "Creating Browser",
       Rows: "Rows",
       More: "More",
       LoadingData: "Loading data sources",
@@ -133,6 +133,51 @@ var kshf = {
       ZoomToFit: "Zoom to fit",
       Close: "Close",
       Help: "Help"
+    },
+    es: {
+      ModifyBrowser: "Modificar navegador",
+      OpenDataSource: "Abrir fuente de datos",
+      ShowInfoCredits: "Desarrollado con Keshif<br>Mostrar info",
+      ShowFullscreen: "Pantalla completa",
+      RemoveFilter: "Eliminar filtro",
+      RemoveAllFilters: "Eliminar todos los filtros",
+      SaveSelection: "Guardar selección",
+      MinimizeSummary: "Minimizar",
+      OpenSummary: "Abrir",
+      MaximizeSummary: "Maximizar",
+      RemoveSummary: "Eliminar",
+      ReverseOrder: "Cambiar orden",
+      Reorder: "Reordenar",
+      ShowMoreInfo: "Mostrar info registro",
+      Percentiles: "Percentiles",
+      LockToCompare: "Bloquear selección",
+      Unlock: "Desbloquear",
+      ChangeMeasureFunc: "Cambiar métrica",
+      Search: "Buscar",
+      CreatingBrowser: "Creando navegador",
+      Rows: "Filas",
+      More: "Más",
+      LoadingData: "Cargando fuentes de datos",
+      ShowAll: "Mostrar todos",
+      ScrollToTop: "Arriba",
+      Percent: "Porciento",
+      Absolute: "Absoluto",
+      AbsoluteSize: "Tamaño absoluto",
+      PartOfSize: "Tamaño relativo",
+      Width: "Ancho",
+      DragToFilter: "Arrastrar",
+      And: "And",
+      Or: "Or",
+      Not: "Not",
+      EditTitle: "Cambiar nombre",
+      ResizeBrowser: "Cambiar tamaño navegador",
+      RemoveRecords: "Eliminar panel de registro",
+      EditFormula: "Editar fórmula",
+      NoData: "(Sin datos)",
+      ValidData: "(Datos Válidos)",
+      ZoomToFit: "Zoom para ajustar",
+      Close: "Cerrar",
+      Help: "Ayuda"
     },
     tr: {
       ModifyBrowser: "Tarayıcıyı düzenle",
@@ -4246,7 +4291,7 @@ kshf.Panel.prototype = {
 kshf.Browser = function(options){
   this.options = options;
 
-  if(kshf.lang.cur===null) kshf.lang.cur = kshf.lang.en; // English is Default language
+  if(kshf.lang.cur===null) kshf.lang.cur = kshf.lang.es; // English is Default language
 
   // BASIC OPTIONS
   this.summaryCount = 0;

@@ -24,11 +24,14 @@ google.charts.setOnLoadCallback(function(){
     barChartWidth: 150,
     categoryTextWidth: 210,
     rightPanelLabelWidth: 180,
+    recordName: " registros - Acciones bélicas en conflicto armado colombiano [1958-2012]", 
     source: {
       url: 'http://www.centrodememoriahistorica.gov.co/micrositios/informeGeneral/basesDatos.html',
       gdocId: '1RP0m_LD4vMz5GblzQGpC9xqdh6CLUizY9ERxtecWgO4',
       tables: "casosvalidados",
-      callback: function(){ CO_States.loadGeo(this); }
+      callback: function(){ 
+        
+        CO_States.loadGeo(this); }
     },
     summaries: [
       { 

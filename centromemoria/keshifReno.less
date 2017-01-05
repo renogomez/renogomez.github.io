@@ -40,14 +40,14 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 @color_bars: #5CA7A7; //#B0BFCA; //#98ABB9; //#8699A8;
 @color_distr_total: #DEE2E6;
-@color_preview: lighten(#6EDCDC, 10%);
+@color_preview: lighten(#6EDCDF, 10%);
 @color_Compare_A: darkslategray;
 @color_Compare_B: #39ef4f;
 @color_Compare_C: #FFFEDC;
 @color_axis_line: rgb(182, 179, 179);
-@color_item_count: #969DA3;;
+@color_item_count: #969DA3;
 @color_filter_clear: #788D9B;
-@color_preview_clear: #6EDCDC;
+@color_preview_clear: #6EDCDF;
 @color_onRecord_back: #EFEADF;
 @color_filter_range: #30B8C4;
 
@@ -65,7 +65,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   display: inline-block;
   > .kshfLogo_C1{
     .transition(fill 300ms linear);
-    fill:#FF6925; 
+    fill:#1C737A; 
   }
   > .kshfLogo_C2{
     .transition(fill 300ms linear);
@@ -77,7 +77,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   }
   &:hover{
     > .kshfLogo_C1{ fill:#7295BE; }
-    > .kshfLogo_C2{ fill:#FF6925; }
+    > .kshfLogo_C2{ fill:#1C737A; }
   }
 }
 
@@ -506,13 +506,13 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             display: none;
             color: black;
             cursor: pointer;
-            &:hover{ color: orangered; }
+            &:hover{ color: #1C737A; }
           }
           > .addFromAttribute_Button{
             display: none;
             color: gray;
             cursor: pointer;
-            &:hover{ color: orangered; }
+            &:hover{ color: #1C737A; }
           }
           > .splitCatAttribute_Button{
             display: none;
@@ -873,7 +873,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           display: none;
           .animation(notifAlert 2s infinite ease-in-out); 
           &:hover{
-            color: orangered;
+            color: #1C737A;
             .animation(none);
           }
         }
@@ -967,7 +967,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           cursor: pointer;
           text-decoration: underline;
           font-size: 0.8em;
-          &:hover{ color: orangered; }
+          &:hover{ color: #1C737A; }
         }
       }
       &[shown=true]{
@@ -1105,7 +1105,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           position: relative;
           background-color: rgba(255, 69, 0, 0.22);
           > .dropZone_between {
-            > .dropIcon{ color: orangered; }
+            > .dropIcon{ color: #1C737A; }
           }
           .dropZone{
             background-color: rgba(217, 224, 230, 0.2) !important;
@@ -1117,7 +1117,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         text-align: center;
         &[readyToDrop=true]{
           background-color: rgb(255, 188, 163);
-          border-color: orangered;
+          border-color: #1C737A;
           cursor: s-resize;
           > .dropText{ display: inline-block; }
         }
@@ -1587,7 +1587,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             font-weight: 700;
             color: black;
             text-decoration: none;
-            &:hover{ color: orangered; }
+            &:hover{ color: #1C737A; }
           }
           .project_fund {
             clear: both;
@@ -2143,8 +2143,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           > path.measure_Active{
             cursor: pointer;
             stroke-width: 2px;
-            stroke: orangered;
-            fill: lighten(orangered, 30%);
+            stroke: #1C737A;
+            fill: lighten(#1C737A, 30%);
             //.transition(~'fill 200ms ease-in-out');
           }
         }
@@ -2407,7 +2407,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           &:hover{
             border-style: solid;
             border-width: 2px 0px 2px 0px;
-            border-color: orangered; // darken(@color_bars, 20%);
+            border-color: #1C737A; // darken(@color_bars, 20%);
             top: -2px;
             .transition(all 700ms ease-in-out);
             // make the size 1px larger on top and bottom, display the border.
@@ -2868,7 +2868,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                       > .highlightRangeLimits{
                         opacity: 0;
                         width: 1px;
-                        background-color: orangered;
+                        background-color: #1C737A;
                         position: absolute;
                         z-index: 100;
                         pointer-events: none;
@@ -3036,7 +3036,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                               opacity: 1;
                               pointer-events: all;
                             }
-                            &:hover{ background-color: orangered !important; }
+                            &:hover{ background-color: #1C737A !important; }
                           }
                         }
                         > .rangeHandle{
@@ -3072,8 +3072,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                             border-width: 0px;
                             border-color: #30b8c4;
                           }
-                          &:hover:after{ background-color: orangered !important; border-color: orangered !important; }
-                          &:hover:before{ border-color: orangered !important; }
+                          &:hover:after{ background-color: #1C737A !important; border-color: #1C737A !important; }
+                          &:hover:before{ border-color: #1C737A !important; }
                           &.min{
                             left: -5px;
                             &:before{
@@ -3401,7 +3401,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           height: 6px;
           width: 6px;
           border-radius: 10px;
-          background-color: orangered;
+          background-color: #1C737A;
         }
         > .mapColorBlock{
           .flex(1);
@@ -3442,8 +3442,8 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     &[selectHighlight]{
       .percentileChart_Highlight{ display: block !important; }
       .aggrGlyph > .measureLabel{ 
-        color: orangered;
-        fill: orangered;
+        color: #1C737A;
+        fill: #1C737A;
       }
       .previewLine{ opacity: 1 !important; }
     }
@@ -3828,7 +3828,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       }
 
       .leaflet-control > a:hover{
-        color: orangered;
+        color: #1C737A;
       }
 
       .recordMap_SVG{
@@ -3932,7 +3932,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         &[selection] { stroke-width: 2; }
         &[selection="onRecord"]   { stroke: darken(@color_onRecord_back, 70%); }
         &[selection="related"]    { stroke: green; }
-        &[selection="highlighted"]{ stroke: orangered; }
+        &[selection="highlighted"]{ stroke: #1C737A; }
 
         &[rec_compared]{ stroke-width: 2; }
         &[rec_compared^="A"]{ stroke: @color_Compare_A; }
@@ -4010,7 +4010,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             stroke-opacity: 1;
           }
           &[selection="highlighted"]{
-            stroke: orangered !important;
+            stroke: #1C737A !important;
             stroke-width: 1px;
             stroke-opacity: 1;
           }
@@ -4376,7 +4376,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           font-size: 0.9em;
           cursor: pointer;
           &:before{ content: "\f102"; }
-          &:hover{ color: orangered; }
+          &:hover{ color: #1C737A; }
         }
         > .recordColorScale{
           display: none;
@@ -4715,6 +4715,6 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 .keyframes(~'helpInFlip, 0%, 60%, 90%{ transform: scale(1); } 80%{ transform: scale(-1, 1); }');
 
-.keyframes(~'notifAlert, 0%, 60%, 90%, 100% { color: #635d46; transform: scale(0.8); } 80%{ color: orangered; transform: scale(1); }');
-//.keyframes(~'helpInFlip, 0%, 60%, 90% { color: #635d46; } 80%{ color: orangered; }');
+.keyframes(~'notifAlert, 0%, 60%, 90%, 100% { color: #635d46; transform: scale(0.8); } 80%{ color: #1C737A; transform: scale(1); }');
+//.keyframes(~'helpInFlip, 0%, 60%, 90% { color: #635d46; } 80%{ color: #1C737A; }');
 
