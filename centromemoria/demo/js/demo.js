@@ -79,7 +79,7 @@ var CO_States = {
         var topojsonData = JSON.parse(data.response);
         topojsonData.features.forEach(function(feature){
             var state = CO_States.index_name[feature.properties.NOMBRE_DPT];
-            feature["id"] = state.id;
+            feature["id"] = state.id = feature.properties.DPTO;
             //feature.geometry["type"] = "MultiPolygon";
             if(state) state.geo = feature;
           });

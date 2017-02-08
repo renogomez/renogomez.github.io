@@ -232,7 +232,20 @@ header {
     background-color: #35454D;
 }
 header .intro-text {
-    padding-bottom: 200px
+    padding-bottom: 200px;
+    width: 100%;
+}
+header .interactive {
+    margin-top: 2px;
+    width:100%;
+    background-color: #35454D;
+
+}
+#myCanvas {
+    margin-bottom: 2px;
+    background-color: #35454D;
+    width:100%;
+    height: 140px;
 }
 header .intro-text .intro-lead-in {
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;

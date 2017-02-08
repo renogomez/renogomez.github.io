@@ -1,0 +1,21 @@
+{
+  "name": "renegomez",
+  "homepage": "https://github.com/renogomez/renogomez.github.io",
+  "authors": [
+    "Rene Gomez <renegomezlondono@gmail.com>"
+  ],
+  "description": "personal website",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper": "^0.10.2"
+  }
+}
