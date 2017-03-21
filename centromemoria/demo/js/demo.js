@@ -32,6 +32,9 @@ var getIcon = function(v){
   return "<span class='fa fa-"+iconName+"'></span>";
 };
 
+// Based on DIAN names and codes
+// IDs are generic
+
 var CO_States = { 
   index_code: {},
   index_id: {},
@@ -79,6 +82,7 @@ var CO_States = {
         var topojsonData = JSON.parse(data.response);
         topojsonData.features.forEach(function(feature){
             var state = CO_States.index_name[feature.properties.NOMBRE_DPT];
+            var a = feature["id"];
             feature["id"] = state.id = feature.properties.DPTO;
             //feature.geometry["type"] = "MultiPolygon";
             if(state) state.geo = feature;
@@ -97,8 +101,49 @@ CO_States.data.forEach(function(s){
 var getCOStateName = function(v){
   var state = CO_States.index_code[v];
   if(state) return state.name;
-  return "Unknown: "+v;
+  return "Unknown: " + v;
 };
+
+
+    var CO_Countys = { 
+      //index_code: {}, //NOMBRE_CAB
+      index_id: {}, //MPIO
+      index_name: {}, //NOMBRE_MPI
+      data: [
+                
+      ],
+      loadGeo: function(browser){
+        browser.asyncDataWaitedCnt++;
+        // Load Colombia county geometries
+        d3.json("./demo/data/municipioscolombia.geo.json", function(error, statesData) {
+            if (error) {
+                alert("Error man");
+                throw error;
+            }
+            statesData.features.forEach(function(feature){ 
+                //console.log(feature);
+                // CO_Countys.index_code.push(feature.properties.NOMBRE_CAB);
+                // CO_Countys.index_name[feature.properties.NOMBRE_MPI] = feature.properties;
+                // CO_Countys.index_code[feature.properties.MPIO] = feature.properties;
+                CO_Countys.data.push({id : feature.properties.MPIO, name : feature.properties.NOMBRE_MPI, geo : feature.geometry});
+                //CO_Countys.geo = feature.geometry;
+            });
+            CO_Countys.data.forEach(function(s){
+                CO_Countys.index_id[s.id] = s;
+                CO_Countys.index_name[s.name] = s;
+            });
+            browser.asyncDataLoaded();
+        });
+        console.log(CO_Countys);
+      }
+    };
+
+    
+    var getCOCountyName = function(v){
+      var county = CO_Countys.index_id[v];
+      if(county) return county.name;
+      return "Unknown: " + v;
+    };
 
 var US_States = { 
   index_code: {},
