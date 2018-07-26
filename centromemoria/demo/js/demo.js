@@ -134,7 +134,7 @@ var getCOStateName = function(v){
             });
             browser.asyncDataLoaded();
         });
-        console.log(CO_Countys);
+        //console.log(CO_Countys);
       }
     };
 

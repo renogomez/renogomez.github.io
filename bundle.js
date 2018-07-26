@@ -179,7 +179,7 @@ module.exports = function (seed) {
     seed = String(Math.floor(Math.random() * 1000000));
   }
 
-  console.log('Seed:', seed);
+  //console.log('Seed:', seed);
 
   var randomFunc = seedRandom(seed);
   var random = createRandomRange(randomFunc);
@@ -228,7 +228,7 @@ module.exports = function (seed) {
   function getPalette() {
     var countColor = Math.floor(random() * palettes.length);
     //ntColor += 1;
-    console.log(countColor);
+    //console.log(countColor);
     var paletteColors = palettes[countColor];
 
     return arrayShuffle(paletteColors);
