@@ -20,6 +20,11 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
+// $('body').on('activate.bs.scrollspy', function (param) {
+//     // do something… 
+//     alert("activated " , param)
+// })
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();

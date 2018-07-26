@@ -28,9 +28,23 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			document.querySelector(".navbar-big").style.background = "#717c82";
+			var links = document.querySelectorAll('a.page-scroll');
+			links.forEach(element => {
+			  element.style.color = "white";
+			  
+			});
 		}
 		else {
-			classie.remove( header, 'navbar-shrink' );
+
+			classie.remove( header, 'navbar-shrink');
+			document.querySelector(".navbar-big").style.background = document.querySelector('#fill').style.background;
+
+			var links = document.querySelectorAll('a.page-scroll');
+			links.forEach(element => {
+			  element.style.color = document.querySelector('.seed-container').style.color;
+			  
+			});
 		}
 		didScroll = false;
 	}
