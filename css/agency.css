@@ -461,7 +461,15 @@ section h3.section-subheading {
     color: #fff;
     border-radius: 100%;
     border: 1px solid #717c82;
-    text-align: center
+    text-align: center;
+}
+.img-gray {
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
+}
+.img-gray:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 .timeline>li .timeline-image h4 {
     font-size: 10px;
