@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--original head-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, shrink-to-fit=0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -28,32 +27,33 @@
   
 </head>
 
-<!--/original head-->
 
 
 <body id="page-top" class="index">
 
     <div id="canvasContainer">
-      <div id="fill"></div>
-      <canvas id="canvas" class="noselect"></canvas>
-      <header class="seed-container">
-        <div>seed – <span class="seed-text">12380</span></div>
-        <div class="howto">tap to randomize</div>
-      </header>
-      <div>
-        <a href="#portfolio" id="showme" class="page-scroll btn ">Show me more!</a>
-      </div>
-      <div class="text-on-canvas">
-					<div class="canvasFont">
-             <click to change colors>
-          </div>
-          <div class="canvasFont">
-              <p>{<strong>Click</strong> to change the colors. <strong>Scroll down</strong> for more info!}</p>
-            <strong>Data-driven software engineer</strong>, always <strong>learning</strong>, always <strong><i>improving</i></strong>.<br/>
-              Master in <strong>Big Data Management & Analytics</strong>. I have experience <strong>researching, designing</strong> and <strong>developing software</strong> using multiple technologies.
-          </div>
-      </div>
-
+        <div id="fill"></div>
+        <canvas id="canvas" class="noselect"></canvas>
+        <header class="seed-container">
+            <div>seed – <span class="seed-text">12380</span>
+            </div>
+            <div class="howto">click to randomize</div>
+        </header>
+        <div>
+            <a href="#portfolio" id="showme" class="page-scroll btn ">Show me more!</a>
+        </div>
+        <div class="container">
+            <div class="text-on-canvas">
+                            <div class="canvasFont">
+                    <click to change colors>
+                </div>
+                <div class="canvasFont">
+                    <p>{<strong>Click</strong> to play with colors :) <strong>Scroll down</strong> for more info!}</p>
+                    <strong>Data-driven software engineer</strong>, always <strong>learning</strong>, always <strong><i>improving</i></strong>.<br/>
+                    Master in <strong>Big Data Management & Analytics</strong>. I have experience <strong>researching, designing</strong> and <strong>developing software</strong> using multiple technologies.
+                </div>
+            </div>
+        </div>
     </div>
     
 
@@ -105,26 +105,12 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">I have had strong participation in these projects.</h3>
+                    <h3 class="section-subheading text-muted">Relevant projects connecting my career path:</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                    <img src="img/portfolio/cvtraffic2.png" class="img-responsive portfolio-image" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>cvTraffic</h4>
-                        <p class="text-muted">We implemented a vehicle classifier using OpenCV (C).</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -137,6 +123,22 @@
                         <p class="text-muted">Web platform for electrical operators in Colombia (PHP, Drupal)</p>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    <img src="img/portfolio/cvtraffic2.png" class="img-responsive portfolio-image" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>cvTraffic</h4>
+                        <p class="text-muted">We implemented a vehicle classifier using OpenCV (C).</p>
+                    </div>
+                </div>
+                
                 <div class="col-md-6 col-sm-12 col-lg-4 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -296,10 +298,7 @@
         </div>
     </footer>
 
-
-
     <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -314,18 +313,19 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>cvTraffic</h2>
-                            <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
-                            <a target="_blank" href="img/portfolio/cvtraffic.gif">
-                                <img class="img-responsive img-centered" src="img/portfolio/cvtraffic.gif" alt="">
-                            </a>
-                            <p>This was a project developed with the Colombian Administrative Department of Science, Technology and Innovation; <a href="http://www.colciencias.gov.co">COLCIENCIAS</a>. 
-                                We developed a traffic sensor to count and classify vehicles. The main challenge was to avoid errors caused by the people who work selling products at road intersections. </p>
-                            <p>This is how our sensor was integrated with other components to analyze traffic congestion. We integrated the sensor with traffic controllers and geographic information systems to visualize traffic state in control centers across the city.</p>
                             
-                            <a target="_blank" href="img/portfolio/omv2.jpg">
-                                <img class="img-responsive img-centered" src="img/portfolio/omv2.jpg" alt="traffic sensor">
-                            </a>
+                            <h2>CREG</h2>
+                            <p class="item-intro text-muted">Web platform for electrical operators in Colombia (PHP, Drupal)</p>
+
+                            <img class="img-responsive img-centered" src="img/portfolio/creg.png" alt="">
+                            
+                            <p>Before finishing my career I started working as a research assistant in a High Performance Computing Lab. This was my first project for an external client: I Designed and developed a <a href="http://amelie.utp.edu.co/creg">web application</a> (Drupal, PHP) to evaluate strategic plans to reduce non-technical losses in electricity distribution for the Regulation Commission of Energy and Gas, <a href="http://www.creg.gov.co">CREG</a>.</p>
+
+                            <ul class="list-inline">
+                                <li>Date: 2011</li>
+                                <li>Client: <a href="http://www.creg.gov.co">CREG</a></li>
+                                <li>Category: web development</li>
+                            </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -347,16 +347,26 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            
-                            <h2>CREG</h2>
-                            <p class="item-intro text-muted">Web platform for electrical operators in Colombia (PHP, Drupal)</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/creg.png" alt="">
-                            <p>Designed and developed a <a href="http://amelie.utp.edu.co/creg">web application</a> (Drupal, PHP) to evaluate strategic plans to reduce non-technical losses in electricity distribution for the Regulation Commission of Energy and Gas, <a href="http://www.creg.gov.co">CREG</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: January. 2011</li>
-                                <li>Client: <a href="http://www.creg.gov.co">CREG</a></li>
-                                <li>Category: web development</li>
-                            </ul>
+                            <h2>cvTraffic</h2>
+                            <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
+                            <a target="_blank" href="img/portfolio/cvtraffic.gif">
+                                <img class="img-responsive img-centered" src="img/portfolio/cvtraffic.gif" alt="">
+                            </a>
+                            <p>
+                                This was a project developed with the Colombian Administrative Department of Science, Technology and Innovation; <a href="http://www.colciencias.gov.co">COLCIENCIAS</a>.</p>
+                                
+                                <p>I co-developed (team of two) a traffic sensor to count and classify vehicles. We had all imaginable challenges coming from an outdoor and uncontrolled environment. The project was developed using early releases of OpenCV. I participated in idea generation to product deployment at traffic intersections. My teammate worked heavily in the hardware (processing unit and camera communication) while I was in charge of the software components, including the sensor communication. We both worked in computer vision for background subtraction and vehicle classification.
+                                </p>
+
+                                <p>This is how our sensor was integrated with other components to analyze traffic congestion:
+                                    <a target="_blank" href="img/portfolio/omv2.jpg">
+                                        <img class="img-responsive img-centered" src="img/portfolio/omv2.jpg" alt="traffic sensor">
+                                    </a>
+                                </p>
+                                <p> We integrated the sensor with traffic controllers and geographic information systems to visualize traffic state in different management systems across the city. Other small teams were responsible for different components, including the traffic controller, the communication system & the Geographic Information System.</p>
+
+                                <p>We will later deploy a similar system for the entire city. For that project, instead of ArcGIS, we used a traffic simulation platform called TransModeler. I was responsible for its integration into the entire system.</p>
+
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -364,6 +374,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Portfolio Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
@@ -382,10 +393,16 @@
                             <h2>Traffic Central</h2>
                             <p class="item-intro text-muted">Traffic sensor to count and classify vehicles using computer vision.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/trafficsimulation.png" alt="">
-                            <p>Designed the software architecture required for the Traffic Control Center in Pereira</p>
-                            <p>Developed an application (.NET) using microkernel architecture in order to visualize the traffic lights of the city over a Geographic Information System (GIS).</p>
-                            <p>Co-developed an application to manage the timing of traffic controllers for the city of Pereira</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/trafficcentral.png" alt="">
+                            <p>I designed the software architecture required for the Traffic Control Center in Pereira</p>
+
+                            <p>I developed an application (.NET) using microkernel architecture to visualize the traffic lights of the city over a Traffic Simulation Platform (TransModeler), enabling traffic  simulation using real time information.</p>
+                            
+                            <p>Co-developed an application to manage the timing of traffic controllers for the city of Pereira following NTCIP communication protocols.</p>
+
+                            <img class="img-responsive img-centered" src="img/portfolio/trafficcentral.png" alt="Traffic Control Center in Pereira">
+
+                            <p>These products allowed us to be part of the Pereira Innovation and Technological Development Center (Colombia), creating an university spin-off focusing on Intelligent Transport Systems.</p>
+
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -411,14 +428,13 @@
                             <h2>ITS Regional Architecture</h2>
                             <p class="item-intro text-muted"><a href="http://amco.gov.co">West Central Metropolitan Area</a> ITS architecture.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/aits3.png" alt="">
-                            <p>Design the 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' (Risaralda, Colombia). The ITS architecture was adopted by the local transport agencies, including services areas for public transport, traffic management, emergency response, traveler information, data management among others.</p>
-                            <p>Unfortunately you need permissions to check the ITS regional Architecture. You can request for access <a href="http://maps.utp.edu.co">here</a>.</p>
-                            <p>Here I leave some context diagrams<br/>Emergency</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/aits4.gif" alt="emergency">
-                            <p>Public transport</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/aits5.gif" alt="">
+
+                            <p>Design the 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' (Risaralda, Colombia). The local transport authorities adopted the ITS architecture, including agencies for public transport, traffic management, emergency response, traveller information, and data management.</p>
+
+                            <p>I defined data flows, services, and applications to integrate all transport management stakeholders under a common data integration framework.</p>
+
                             <ul class="list-inline">
-                                <li>Date: Dec. 2014</li>
+                                <li>Date: 2014</li>
                                 <li>Client: AMCO-CIDT</li>
                                 <li>Category: Software architecture, ITS</li>
                             </ul>
@@ -448,14 +464,14 @@
                             <h2>smaps</h2>
                             <p class="item-intro text-muted">Web platform for Intelligent Transport Projects</p>
                             <img class="img-responsive img-centered" src="img/portfolio/smaps2.png" alt="">
-                            <p>Design and lead the implementation of 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' with a web platform (Node.js, OpenStreetMap, OpenLayers, Common Alerting Protocol) integrating regional transport information from multiple stakeholders.</p>
-                            <p>
-                                Smaps is currently under development by a different team. You can check their website <a href="http://maps.utp.edu.co">here.</a>
-                            </p>
+                            <p>I led the implementation of 'Regional Intelligent Transportation Systems Architecture for West Central Metropolitan Area' with a web platform (Node.js, OpenStreetMap, Common Alerting Protocol) integrating regional transport information from multiple data sources including traffic data, road emergencies & alerts, traffic light status, security cameras, public transport among others.</p>
+
+                            <p>Smaps is currently under development by a different team. You can check their website <a href="http://maps.utp.edu.co">here.</a></p>
+
                             <ul class="list-inline">
                                 <li>Date: Dec. 2015</li>
                                 <li>Client: CIDT</li>
-                                <li>Category: Web development</li>
+                                <li>Category: Backend/web development</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -480,7 +496,7 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>Bariatrack</h2>
-                            <p class="item-intro text-muted">Software Analyst for mobile app.</p>
+                            <p class="item-intro text-muted">Software engineer for mobile app.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/bariatrackbaros.png" alt=""></a>
                             <p>We developed a prototype requiered to evaluate the evolution of bariatric surgery' patients. I had to find the way to adapt the BAROS (Bariatric Analysis and Reporting Outcome System) for Colombian users in a digital environment. I led the development team and I was in charge of direct interaction with the client.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/bariatrackcalidadvida.png" alt="">
@@ -513,9 +529,15 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>Colombian Armed Conflict</h2>
+
                             <p class="item-intro text-muted">Interact with Colombian Armed Conflict data from Centro Memoria.</p>
+
                             <img class="img-responsive img-centered" src="img/portfolio/centromemoria.gif" alt=""></img>
-                            <p>This is a side project about warlike actions data visualization in the context of the Colombian armed conflict. In 2016 I sent this example to <a href="http://www.centrodememoriahistorica.gov.co">Centro Nacional de Memoria Histórica</a> but they told me a new website will be released. I don't like the result they have finally published at <a href="http://rutasdelconflicto.com/geografia-del-terror">'Rutas del Conflicto'</a>. The data isn't available at the time. I agree with <a href="https://twitter.com/lisacrost">Lisa Charlotte Rost</a> when she says we need to create visualizations to make people feel empathy about these topics</p>
+
+                            <p>At this point I knew I wanted to pursue a data-driven career. Hence, I started to study visual analytics because it was a missing profile in our team and I knew it would help me to succeed in a scholarship application. Besides taking responsibility for visual components in our projects at work, I continued learning in my free time with side projects.</p>
+
+                            <p>This is a data visualization project about warlike actions in the context of the Colombian armed conflict. In 2016 I sent this project to <a href="http://www.centrodememoriahistorica.gov.co">Centro Nacional de Memoria Histórica</a>, asking for more data and proposing new ideas for visualization. They told me a new project was covering the topic, which they late published at <a href="http://rutasdelconflicto.com/geografia-del-terror">'Rutas del Conflicto'</a>. I agree with <a href="https://twitter.com/lisacrost">Lisa Charlotte Rost</a> when she says we need to create visualizations to make people feel empathy about these topics. I still think data humanism is required for this kind of projects.</p>
+
                             <ul class="list-inline">
                                 <li>Date: Nov. 2016</li>
                                 <li>Client: Side project</li>
@@ -546,14 +568,18 @@
                             <h2>Geo Tweets</h2>
                             <p class="item-intro text-muted">Tweets visualization according to topic and geolocation.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/geotweets2.gif" alt=""></img>
-                            <p>This is a side project for tweets visualization, developed for fun at Bios in order to practice some technologies. You can search up to four (4) different topics in order to see places where people is tweeting them the most. You can also filter topics by sentiment.</p>
+                            <p>This is another side project. Tweets visualization developed at Bios to practice and showcase some technologies. You can search up to four (4) different topics to see places where people are tweeting them the most. You can also filter topics by sentiment.</p>
+
                             <p>I designed the interface and lead the team for project implementation. I developed d3.js and leaflet related components.</p>
+
+                            <p>All my side-projects in visual analytics would later be crucial to obtain a scholarship from the European Union for the Master in Big Data Management & Analytics, which I started in 2018 :)</p>
+
                             <video width="640" height="480" controls>
                               <source src="img/portfolio/nlp_alpha.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             <ul class="list-inline">
-                                <li>Date: June. 2017</li>
+                                <li>Date: 2017</li>
                                 <li>Client: Internal project at BIOS</li>
                                 <li>Category: information visualization</li>
                             </ul>
@@ -564,42 +590,6 @@
             </div>
         </div>
     </div>
-
-        <!-- Portfolio Modal 8 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Geo Tweets</h2>
-                                <p class="item-intro text-muted">Tweets visualization according to topic and geolocation.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/geotweets2.gif" alt=""></img>
-                                <p>This is a side project for tweets visualization, developed for fun at Bios in order to practice some technologies. You can search up to four (4) different topics in order to see places where people is tweeting them the most. You can also filter topics by sentiment.</p>
-                                <p>I designed the interface and led the team for project implementation. I developed d3.js and leaflet related components.</p>
-                                <video width="640" height="480" controls>
-                                  <source src="img/portfolio/nlp_alpha.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <ul class="list-inline">
-                                    <li>Date: June. 2017</li>
-                                    <li>Client: Internal project at BIOS</li>
-                                    <li>Category: information visualization</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     <!-- Portfolio Modal 9 - UDAPTOR -->
     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
@@ -619,10 +609,11 @@
                             <p class="item-intro text-muted">Big Data startup business plan & prototype</p>
                             <img class="img-responsive img-centered" src="img/portfolio/udaptor.gif" alt=""></img>
                             <p>In our Master we developed a data portability tool, we called it <a rel="stylesheet" href="https://udaptor.io/">UDAPTOR</a>. The project takes advantage of the General Data Protection Regulation (GDPR) to transfer data between service providers. Our idea was to facilitate data portability converting collections of files from one provider (e.g. Spotify) to another (Deezer, Apple Music, etc.). I participated from idea conception to the prototype implementation, responsible for the Knowledge Graph mappings required to transform the source files to the target files. I also developed the PoC using Spotify, improving music recommendations for users coming from Apple Music.</p>
-                            <p>Later, two members of the original team continued the project with their BDMA Master Thesis. It is available at <a rel="stylesheet" href="https://udaptor.io/">the official website</a>, where you can find more info.</p>
+                            <p>Later, two members of the original team continued the project with their BDMA Master Thesis. <a rel="stylesheet" href="https://udaptor.io/">Here the official website</a>, where you can find more info.</p>
                             <ul class="list-inline">
-                                <li>Date: June. 2019</li>
-                                <li>Client: Class project</li>
+                                <li>Date: July. 2019</li>
+                                <li>Location: Barcelona, Spain</li>
+                                <li>Client: UPC - Class Project</li>
                                 <li>Category: data engineering, data integration, semantics</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -656,7 +647,8 @@
                             <p>The project is available at <a rel="stylesheet" href="https://vamigration.github.io">this Github site</a> where you can find a data analysis report. </p>
                             <ul class="list-inline">
                                 <li>Date: January. 2020</li>
-                                <li>Client: Class project</li>
+                                <li>Location: Paris, France</li>
+                                <li>Client: CentraleSupélec - Class Project</li>
                                 <li>Category: information visualization, data science, visual analytics</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
